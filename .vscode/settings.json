@@ -1,0 +1,22 @@
+{
+    "editor.rulers": [
+        88
+    ],
+    "files.eol": "\n",
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".py",
+                "isAsync": true,
+                "cmd": "isort ${file}",
+            }
+        ]
+    },
+    "vim.foldfix": true
+}

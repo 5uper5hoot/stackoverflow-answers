@@ -1,0 +1,8 @@
+-c main.txt
+--pre
+black
+flake8
+isort[requirements]
+mypy
+pre-commit
+pytest
