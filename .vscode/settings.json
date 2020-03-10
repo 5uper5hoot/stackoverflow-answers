@@ -18,5 +18,6 @@
             }
         ]
     },
-    "vim.foldfix": true
+    "vim.foldfix": true,
+    "python.pythonPath": ".venv-60691513/bin/python3.8"
 }
