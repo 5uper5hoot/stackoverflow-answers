@@ -64,4 +64,4 @@ To Reset
 ========
 1. Run `alembic downgrade base`
 2. Delete files in `versions` directory: `$ rm alembic/versions/*.py`
-3. Start again at step 4
+3. Start again at step 3
